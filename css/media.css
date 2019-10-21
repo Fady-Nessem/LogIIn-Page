@@ -1,0 +1,52 @@
+/* Media Query */
+/* Phone xs */
+@media (max-width:575px){
+    body{
+        background-position: cover;
+    }
+    #center{
+        width: 400px;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .left-side{ 
+        border-radius:10px;
+    }
+    .right-side{
+        display: none;
+    }   
+}
+/* Small */
+@media (min-width:576px) and (max-width:768px){
+    #center{
+        width: 400px;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .left-side{ 
+        border-radius:10px;
+    }
+    .right-side{
+        display: none;
+    }  
+}
+
+/* medium */
+@media (min-width:769px) and (max-width:991px) {
+    #center{
+        width: 400px;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .left-side{ 
+        border-radius:10px;
+    }
+    .right-side{
+        display: none;
+    }  
+}
+
+/* large */
+@media (min-width:992px) {
+    
+}

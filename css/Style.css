@@ -1,0 +1,228 @@
+*{
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+body{
+       background-image: url(../Images/LOGIN-BACKGROUND.jpg);
+       background-position: center
+}
+              /*  Div Center  */
+#center{
+  height: 500px;
+  width: 800px;
+  margin-top: 5%;
+  margin-left: 20%;
+  position: relative; 
+  box-shadow:  0px 2px 10px black;
+  border-radius: 10px;
+  display: none;    
+}
+               /*  DiV Left  */
+.left-side{ 
+  height: 500px;
+  width: 400px;
+  background: white;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  position: relative; 
+  display: inline-block;
+  font-family: sans-serif;      
+}
+.left-side .Logo{
+  font-family: Gill sans-serif;
+  font-size: 60px;
+  padding-bottom: 20px;
+}
+.left-side .text{
+  font-size: 15px;
+  font-family: serif;
+  line-height: 25px;
+  color: gray;        
+}
+.left-side .Creat{ 
+  font-size: 15px;
+  font-family: serif;
+  color: blue;     
+}
+.left-side .Creat a:hover{
+  color: orange;  
+}
+.left-side input{  
+  margin-top: 20px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  width: 100%;
+  border: 0px;
+  border-bottom: 2px solid lightgray;
+  outline: 0;
+}
+.left-side input:focus{
+  border-bottom: 2px solid rgb(0, 104, 250);
+}
+.fa-user{
+  float: right;
+  position: absolute;
+  right: 35px;
+  top: 185px;
+  color: gray;
+}
+.fa-lock{
+  float: right;
+  position: absolute;
+  right: 35px;
+  top: 245px;
+  color: gray;
+}
+.remember{  
+  display: inline-block;
+  color: gray;
+}
+.left-side .Forget{
+  padding-top: 15px;
+  padding-right: 20px;
+  position: absolute;
+  right: 20px;
+  font-weight: 400;
+}
+.left-side .Forget a:hover{
+  color: orange;
+}
+.left-side .login{ 
+  display: block;
+  background: blue;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  width: 130px;
+  height: 40px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin-top: 25px;
+  box-shadow:  1px 2px 5px blue;
+  text-decoration: none;     
+  transition: 0.2s;
+}
+.left-side .login:hover{
+  font-size: 18px;
+  transition: 0.2s;
+}
+.left-side .media{
+  margin-top: 5
+}
+.orlogin{ 
+  padding-top: 30px;
+  color: gray;
+  display: inline-block;
+  font-weight: bold;
+  font-family: serif;;
+}
+.lable{ 
+  display: inline-block;
+}
+.fa-facebook-f{
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+  text-align:center;
+  background: blue;
+  color: white;
+  padding-top: 4px;
+  margin-left: 50px;
+  cursor: pointer;
+transition: 0.2s;
+}
+.fa-facebook-f:hover{
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+.fa-twitter{  
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+  text-align:center;
+  background:#0069FF;
+  color: white;
+  padding-top: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.fa-twitter:hover{
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+.fa-google-plus-g{
+  height: 20px;
+  width: 50px;
+  border-radius: 30px;
+  text-align:center;
+  background: red;
+  color: white;
+  padding-top: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.fa-google-plus-g:hover{
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+               /*  Div Right  */
+.right-side{
+  height: 500px;
+  width: 400px;
+  background-image: url(../Images/labtop.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 400px;
+  top: 0px;
+}
+.right-side .opacity{
+  height: 500px;
+  width: 400px;
+  background: rgba(200,100,10,0.2);
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 90px;
+  color: white;      
+}
+.right-side .fa-times{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.right-side .opacity .welcome{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 65px; 
+}
+.right-side .opacity .items{
+  font-size: 25px;
+  line-height: 3px;
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.right-side .opacity .items .list{
+  color: white;
+  margin: 25px  0;
+}
+.empty{
+  border-bottom: 2px solid white;
+  width: 70px;
+}
